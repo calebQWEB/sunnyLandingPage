@@ -1,0 +1,31 @@
+.sunnyside__header {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.sunnyside__header h1 {
+    color: var(--White);
+    font-family: var(--fraunces);
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    margin-bottom: 3rem;
+}
+
+.arrow {
+    margin-bottom: 10rem;
+    height: 100%;
+    width: 30px;
+}
+
+@media screen and (max-width: 550px) {
+    .sunnyside__header h1 {
+        font-size: 20px;
+    }
+
+    .arrow {
+        height: 100%;
+        width: 20px
+    }
+}

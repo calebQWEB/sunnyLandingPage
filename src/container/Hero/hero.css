@@ -1,0 +1,114 @@
+.sunny__hero {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.text-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eggs {
+    width: 100%;
+    height: 100%;
+}
+
+.redGlass {
+    width: 100%;
+    height: 100%;
+}
+
+.redApples__main {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../../assets/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.redApples__text-container {
+    margin-top: 25rem;
+    margin-bottom: 5rem;
+    padding: 0 6rem;
+}
+
+.redApples {
+    width: 100%;
+    height: 100%;
+}
+
+.redApples__text-container h1 {
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--Verydarkdesaturatedblue);
+    font-family: var(--fraunces);
+}
+
+.redApples__text-container p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--barlow);
+}
+
+.tangerin__main {
+    background-image: url(../../assets/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.tangerin__text-container {
+    margin-top: 25rem;
+    margin-bottom: 5rem;
+    padding: 0 6rem;
+}
+
+.tangerin {
+    width: 100%;
+    height: 100%;
+}
+
+.tangerin__text-container h1 {
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--Verydarkdesaturatedblue);
+    font-family: var(--fraunces);
+}
+
+.tangerin__text-container p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--barlow);
+}
+
+@media screen and (max-width: 720px) {
+    .sunny__hero {
+       display: grid;
+       grid-template-columns: repeat(1, 100%);
+    }
+
+    .grid-item:nth-of-type(2) {
+        order: -1;
+    }
+
+    .tangerin__text-container {
+       padding: 0 3rem;
+    }
+
+    .redApples__text-container {
+        padding: 0 3rem;
+    }
+}

@@ -1,0 +1,31 @@
+.sunny__review {
+    padding: 6rem 1rem;
+    text-align: center;
+}
+
+.sunny__review-customers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sunny__review h2 {
+    margin-bottom: 3rem;
+
+    font-family: var(--fraunces);
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--Grayishblue);
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .sunny__review h2 {
+        font-size: 17px;
+    }
+    .sunny__review-customers {
+        flex-direction: column;
+    }
+}

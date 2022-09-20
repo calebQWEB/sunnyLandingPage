@@ -1,0 +1,5 @@
+export { default as Background} from './Background/Background'
+export { default as Hero} from './Hero/Hero'
+export { default as Review} from './Review/Review'
+export { default as Product} from './Product/Product'
+export { default as Footer} from './Footer/Footer'

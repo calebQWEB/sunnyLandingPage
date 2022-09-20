@@ -1,0 +1,16 @@
+.sunny__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sunny__product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+}
+
+.bottles, .sugarCubes, .cone, .plateOrange{
+    width: 100%;
+    height: 100%;
+}

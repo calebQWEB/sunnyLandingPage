@@ -1,0 +1,110 @@
+.sunnyside__nav-contaner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.sunnyside__desktop-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sunnyside__desktop-container ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.sunnyside__desktop-container ul li a {
+    text-decoration: none;
+    color: var(--White);
+    font-family: var(--barlow);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.sunnyside__desktop-container button {
+    padding: 1rem 1.8rem;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--White);
+
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fraunces);
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .sunnyside__desktop-container {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .sunnyside__mobile-container {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: var(--softred);
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sunnyside__mobile-container ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .sunnyside__mobile-container ul li a {
+        text-decoration: none;
+        color: var(--White);
+        font-family: var(--barlow);
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+
+    .sunnyside__mobile-container button {
+        padding: 1rem 1.8rem;
+        border-radius: 40px;
+        border: none;
+        background-color: var(--White);
+    
+        font-size: 16px;
+        font-weight: 700;
+        font-family: var(--fraunces);
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sunnyside__mobile-container {
+        width: 100%;
+    }
+}
