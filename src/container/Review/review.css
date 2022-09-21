@@ -10,7 +10,7 @@
     gap: 1rem;
 }
 
-.sunny__review h2 {
+.sunny__review h1 {
     margin-bottom: 3rem;
 
     font-family: var(--fraunces);
@@ -22,7 +22,7 @@
 
 
 @media screen and (max-width: 720px) {
-    .sunny__review h2 {
+    .sunny__review h1 {
         font-size: 17px;
     }
     .sunny__review-customers {

@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "npm-watch"
   },
   "dependencies": {
+    "npm-watch": "^0.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -17,5 +19,13 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
     "vite": "^3.1.0"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
   }
 }

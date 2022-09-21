@@ -5,7 +5,7 @@ import { facebook, instagram, twitter, pinterest } from '../../assets'
 const Footer = () => {
   return (
     <footer>
-        <h4>sunnyside</h4>
+        <h1>sunnyside</h1>
         <div className='sunny__footer-container'>
             <a href='#'>About</a>
             <a href='#'>Services</a>
@@ -13,10 +13,10 @@ const Footer = () => {
         </div>
 
         <div className='sunny__media'>
-            <img src={facebook} />
-            <img src={instagram} />
-            <img src={twitter} />
-            <img src={pinterest} />
+            <img src={facebook} alt='facebook'/>
+            <img src={instagram} alt='instagram'/>
+            <img src={twitter} alt='twitter'/>
+            <img src={pinterest} alt='pinterest'/>
         </div>
     </footer>
   )

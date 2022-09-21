@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <section className='sunny__review'>
 
-        <h2>CLIENT TESTIOMONIALS</h2>
+        <h1>CLIENT TESTIOMONIALS</h1>
 
         <div className='sunny__review-customers'>
         <Customer image={emily}
